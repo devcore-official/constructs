@@ -20,7 +20,7 @@ new alg("add3")
 	.blocK(
 		n => n + 3
 		)
-	.publish()
+	.publish();
 
 
 // console.log(add3);	

@@ -13,32 +13,6 @@ module.exports = class alG {
 
 	constructor(algname){
 		this.props.algname = algname;
-		// alG("add3")
-		// 	.description(`increments input 3 values up`)
-		// 	.examplE(`
-
-		// 		const alg		= add3;
-		// 		const input 	= 20;
-		// 		const output 	= func(input);
-		// 		const expect 	= 23;
-
-		// 		console.log(output === expect)
-
-		// 	`).
-		// 	.speC("adds 3 to input", 
-		// 		[0,3],
-		// 		[3,6],
-		// 		[11,14]
-		// 	)
-		// 	.constrainT( // can be considered queries
-		// 		"input is positive",	n => n > 0,
-		// 		"input is gt 100",		n => n > 100,
-		// 		"input is lt 1000",		n => n < 1000
-		// 	)
-		// 	.blocK(
-		// 		n => n + 3
-		// 	)
-		// 	.publish();
 	}
 	publish(){
 		// confirms with registry the algorithm is unique
