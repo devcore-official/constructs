@@ -1,19 +1,13 @@
-// const api = require("./EverythingAPI/api/index.js")
+const api = require("./EverythingAPI/api/index.js");
 const claS = require("./claS.js");
 module.exports = class apI extends claS {
-
 	constructor(){
 		super(this);
-
-
-
-
 	}
 	deploy(){
-
 		// deploy where?
-
-
+		// relies on circleci deployment integration
+		shell(`git add . && git commit -m "deploy command" && git push`);
 		return this;
 	}
 	price(obj){

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/devcore-official/constructs/issues"
   },
-  "homepage": "https://github.com/devcore-official/constructs#readme"
+  "homepage": "https://github.com/devcore-official/constructs#readme",
+  "dependencies": {
+    "EverythingAPI": "git+https://github.com/devcore-official/everything-api#main"
+  }
 }
