@@ -86,6 +86,4 @@ module.exports = class alG {
 		this.props.blocK = cb;
 		return this;
 	}
-
-
 };

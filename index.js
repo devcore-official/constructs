@@ -15,16 +15,20 @@ module.exports = class Constructs {
 		// "service",			// url-nonlocalhost accessible function
 		"system"			// vm-container wrapped function			
 	];
-
 	constructor(){
-
+		this.list.forEach((construct)=>{
+			try {
+				this[construct] = require("./"+construct+".js");
+			} catch(){
+				console.error("error construct not loaded", construct);
+			} finally {
+				// intentionally left empty
+			}
+		});
 		/*
 			recommend algorithm creation in this order
-			example, speC, constrainT, blocK
-
-			constraints open fllexibility.
-
-			a 
+			example, speC, constrainT, blocK.
+			constraints open flexibility to reusability
 		*/
 
 		// alG("add3")
