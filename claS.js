@@ -11,7 +11,7 @@ module.exports = class claS extends funC {
 		this.props.props = inherit;
 	}
 	extend(){
-
+	
 	}
 	init(){
 		
