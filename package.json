@@ -1,0 +1,19 @@
+{
+  "name": "constructs",
+  "version": "1.0.0",
+  "description": "alG, funC, claS, service, API, Server, OS, etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devcore-official/constructs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devcore-official/constructs/issues"
+  },
+  "homepage": "https://github.com/devcore-official/constructs#readme"
+}
