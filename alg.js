@@ -1,4 +1,5 @@
-module.exports = class alG {
+const prgM = require("./prgM.js");
+module.exports = class alG extends prgM {
 
 	props = {
 		algname		:"",

@@ -46,7 +46,9 @@ module.exports = class funC extends alG {
 		// this.props.blocK();
 
 	}
-	$(){
-		
+	$(language){
+		 // switch (language) {
+		 // 	case "js"
+		 // }
 	}
 }

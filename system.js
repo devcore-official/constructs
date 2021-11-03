@@ -3,7 +3,6 @@ module.exports = class System extends apI {
 		containerized app
 	}
 	boot(){ // runtime
-
 	}
 	sleep(){}
 	hibernate(){}
