@@ -1,17 +1,6 @@
 const prgM = require("./prgM.js");
 module.exports = class alG extends prgM {
 
-	props = {
-		algname		:"",
-		description: [],
-		examplE:     [],
-		speC:        [],
-		constrainT:  [],
-		blocK:       []
-	};
-
-	errors = [];
-
 	constructor(algname){
 		this.props.algname = algname;
 	}

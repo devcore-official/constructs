@@ -1,7 +1,12 @@
+
+const prgM = require("./prgM.js");
 const alG = require("./alg.js");
 const funC = require("./func.js");
 const claS = require("./clas.js");
 const apI = require("./apI.js");
+
+
+console.error(`need to create prgM spec`);
 
 new alG("add3")
 	.description(`
