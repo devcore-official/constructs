@@ -15,6 +15,13 @@ module.exports = class Constructs {
 		// "service",			// url-nonlocalhost accessible function
 		"system"			// vm-container wrapped function			
 	];
+
+
+	roles = [
+		"server",
+		"client"
+	]
+
 	constructor(){
 		this.list.forEach((construct)=>{
 			try {
