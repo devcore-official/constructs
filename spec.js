@@ -8,6 +8,19 @@ const apI = require("./apI.js");
 
 console.error(`need to create prgM spec`);
 
+
+new prgM("add3")
+	.language()
+	.run()
+	.compile()
+	.install()
+	.update()
+	.profile()
+
+	.publish()
+	.description()
+	.examplE();
+
 new alG("add3")
 	.description(`
 		increments input number by three
